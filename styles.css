@@ -1,0 +1,268 @@
+/* reset:This enables you to reset the default styles in the webpage */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main styling */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    color:goldenrod;
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    padding: 10px;
+
+}
+p{
+    margin: 10px 0px;
+}
+/* utilities */
+.container{
+    margin: auto;
+    overflow: auto;
+    max-width: 1900px;
+    padding: 0px 20px;
+    /* background-color: #333; */
+}
+
+h1.logo a:hover{
+    background-color: #333;
+    color: goldenrod;
+}
+/* navbar styling */
+ #navbar{
+    background-color:rgb(44, 41, 41);
+    overflow: auto; 
+} 
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar li{
+   float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+#navbar.logo{
+    float: left;
+    padding:20px;
+}
+#navbar ul li a:hover, #navbar ul li a.current{
+    background-color: rgb(102, 95, 57);
+    color: aliceblue;
+}
+/* div stylings */
+#showcase{
+    background:url('./images/showcase.jpg') no-repeat center center/cover;
+    height: 100vh; 
+}
+.showcase-content{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 170px;
+}
+.showcase-content h1{
+font-size: 60px;
+line-height: 1.2em;
+}
+.primary-content{
+    color: goldenrod;
+}
+.lead{
+    color: aliceblue;
+}
+.bg-dark{
+    background: #333;
+    color: goldenrod;
+}
+.btn{
+    display: inline-block;
+    color: goldenrod;
+    background-color: rgb(54, 48, 48);
+    font-size: 18px ;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(102, 95, 57);
+    color: aliceblue;
+}
+#home-info{
+    height: 400px;
+}
+#home-img{
+    background: url('./images/photo-1.jpg')no-repeat;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#home-content{
+    background-color: #333;
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+}
+.home-content-text{
+    padding-bottom: 30px ;
+}
+.read-more{
+    background-color: aliceblue;
+    color: #333;
+    font-size: 22px;
+    padding: 10px;
+}
+.read-more:hover{
+    background-color: rgb(102, 95, 57);
+    color: goldenrod;
+}
+/* features */
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 2.5em;
+    background-color: #333;
+}
+.box i{
+    margin:20px;
+}
+
+.bg-light{
+    color:#333;
+    background: goldenrod;
+}
+.bg-primary{
+    background: #444;
+    color: goldenrod;
+}
+.bg-dark{
+    background-color:rgb(119, 114, 114);
+    color: #333;
+}
+.clr{
+    clear: both;
+}
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+   display: block;
+   margin: auto;
+    width: 70%; 
+    border-radius: 50%;
+   
+}
+#about-info .info-left{
+ float: left;
+ width: 50%;
+  min-height: 100%;
+   
+}
+/* padding */
+.py-1{ padding: 10px 0;}
+.py-2{ padding: 20px 0;}
+.py-3{ padding: 30px 0;}
+
+.l-heading{
+    font-size: 40px;
+}
+#testimonials{
+    height: 700px;
+    background: url('./images/test-bg.jpg') no-repeat  center center/cover;
+    padding-top: 100px;
+}
+#testimonials h2{
+    text-align: center;
+   color: aliceblue;
+   padding-bottom: 40px;
+}
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+/* contact form */
+#contact-form.form-group{
+margin: 20px;
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+#contact-form textarea{
+    height: 200px;
+    font-weight: bolder;
+}
+#contact-info{
+    background-color: #333;
+   
+}
+.box-contact{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+}
+.btn {
+    background: #333;
+    background-image: -webkit-linear-gradient(top, #333,rgb(167, 147, 147));
+    background-image: -moz-linear-gradient(top,#333, rgb(167, 147, 147));
+    background-image: -ms-linear-gradient(top, #333,rgb(167, 147, 147));
+    background-image: -o-linear-gradient(top, #3334,rgb(167, 147, 147));
+    background-image: linear-gradient(to bottom, #333, rgb(167, 147, 147));
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: goldenrod;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  .btn:link{
+    text-decoration: none;
+  }
+  .btn:hover {
+    background:goldenrod;
+    background-image: -webkit-linear-gradient(top, goldenrod, rgb(122, 96, 28));
+    background-image: -moz-linear-gradient(top,goldenrod, rgb(122, 96, 28));
+    background-image: -ms-linear-gradient(top, goldenrod, rgb(122, 96, 28));
+    background-image: -o-linear-gradient(top, goldenrod,rgb(122, 96, 28) );
+    background-image: linear-gradient(to bottom, goldenrod, rgb(122, 96, 28));
+    text-decoration: none;
+}
+
+#main-footer{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+}

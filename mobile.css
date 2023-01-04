@@ -1,0 +1,117 @@
+/* hoome page editing to suit smartphone views */
+#navbar ul, #navbar ul li{
+    list-style: none;
+    float: none;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+/* #navbar.logo{
+    float: none;
+    padding:20px;
+    text-align: center;
+} */
+h1.logo{
+    margin: 1rem 0;
+    text-align: center;
+}
+.showcase-content{
+margin: auto;    
+    /* padding-top: 130px; */
+}
+.showcase-content h1{
+    font-size: 40px;
+    line-height: 1.2em;
+    }
+.box{
+    float: none;
+    display: block;
+    width: 100%;
+}
+.home-content-text{
+    padding-bottom: 30px ;
+}
+.read-more{
+    font-size: 22px;
+    padding: 15px;
+}
+#home-content{
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    float: none;
+    text-align: center;
+    padding: 10px;
+    
+}
+#home-img{
+    display: none;
+}
+/* about page edits to suit smartphone views */
+.l-heading{
+    font-size: 35px;
+}
+#about-info .info-left{
+    float: none;
+    width: 100%;
+     min-height: 100%;
+      
+   }
+   #about-info .info-right{
+    float: none;
+    width: 100%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    display: none;
+    margin: auto;
+    width: 70%; 
+    border-radius: 50%;
+    
+ }
+ #testimonials{
+    height: 1100px;
+    background: url('./images/test-bg.jpg') no-repeat  center center/cover;
+    padding-top: 100px;
+}
+
+#contact-form label{
+    display: block;
+    margin: 5px;
+}
+/* #contact-form input{
+    width: 20rem;
+}
+#contact-form textarea{
+    width: 20rem;
+    height: 5rem;
+    
+} */
+.box{
+    float:none;
+    width: 100%;
+    padding: 0.5rem;
+    text-align: left;
+    margin: 0;
+    
+}
+#contact-info{
+    background-color: #333;
+   height: 30rem;
+}
+#main-footer{
+    padding: 2.25rem 1.25rem 1.25rem ;
+}
+@media(max-width:500px){
+    #contact-form input{
+        width: 20rem;
+    }
+    #contact-form textarea{
+        width: 20rem;
+        height: 5rem;
+        
+    }
+}
